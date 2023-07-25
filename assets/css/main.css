@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color_fondo_claro);
+}
+
+@media screen and (min-width:768px) {
+    .main{
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main{
+        align-items: center;
+        padding: 4rem 0 4rem 0;
+        gap: 4rem;
+    }
+}
