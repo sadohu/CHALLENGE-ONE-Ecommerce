@@ -1,9 +1,17 @@
 .banner__description-title{
-    
+    color: var(--contrast-ligth-color);
+    font-family: var(--fuente_principal);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
 
 @media screen and (min-width:768px) {
-    
+    .banner__description-title{
+        font-size: 3.25rem;
+    }
 }
 
 @media screen and (min-width:1024px) {

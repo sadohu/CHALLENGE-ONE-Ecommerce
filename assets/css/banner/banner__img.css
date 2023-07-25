@@ -3,7 +3,7 @@
 }
 
 .banner__img-img{
-    
+    width: 100vmax;
 }
 
 @media screen and (min-width:768px) {
