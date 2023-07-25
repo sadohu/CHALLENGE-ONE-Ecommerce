@@ -1,23 +1,44 @@
 .categories__header{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
 }
 
 .categories__header-title{
-
+    color: var(--color_letras-H2);
+    font-family: var(--fuente_principal);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .categories__header-link{
-
+    display: flex;
+    gap: 1rem;
+    color: var(--color_fondo-o-letra_botones-2);
+    font-family: var(--fuente_principal);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 @media screen and (min-width:768px) {
     .categories__header{
     
     }
+    .categories__header-link{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:1024px) {
     .categories__header{
     
+    }
+    .categories__header-title{
+        font-size: 2rem;
     }
 }

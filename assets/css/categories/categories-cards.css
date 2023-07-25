@@ -1,5 +1,7 @@
 .categories__cards{
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 @media screen and (min-width:768px) {

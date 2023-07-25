@@ -1,15 +1,19 @@
 .categories{
-
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 @media screen and (min-width:768px) {
     .categories{
-    
+        padding: 2rem;
     }
 }
 
 @media screen and (min-width:1024px) {
     .categories{
-    
+        width: 71rem;
+        padding: 0rem;
     }
 }

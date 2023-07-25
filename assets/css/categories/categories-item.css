@@ -1,17 +1,38 @@
 .categories__cards__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex: 1 0 0;
+    font-family: var(--fuente_principal);
+    color: var(--color_letras-H2);
+    font-style: normal;
+    line-height: normal;
+}
 
+.categories__cards__item__extra{
+    display: none;
+}
+
+.categories__cards__item-img{
+    width: 9.75rem;
+    height: 10.875rem;
 }
 
 .categories__cards__item-name{
-
+    font-size: 0.875rem;
+    font-weight: 500;
 }
 
-.categories__cards__item-price{
-
+.categories__cards__item-price{    
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .categories__cards__item-link{
-
+    color: var(--color_fondo-o-letra_botones-2);
+    font-size: 0.875rem;
+    font-weight: 700;
 }
 
 
@@ -19,10 +40,20 @@
     .categories__cards__item{
     
     }
+    .categories__cards__item-img{
+        width: 10.25rem;
+        height: 10.875rem;
+    }
 }
 
 @media screen and (min-width:1024px) {
     .categories__cards__item{
     
+    }
+    .categories__cards__item__extra{
+        display: flex;
+    }
+    .categories__cards__item-img{
+        width: 11rem;
     }
 }
