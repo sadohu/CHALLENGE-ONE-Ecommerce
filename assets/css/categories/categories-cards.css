@@ -1,15 +1,15 @@
-.banner__img{
-    
-}
+.categories__cards{
 
-.banner__img-img{
-    width: 100vmax;
 }
 
 @media screen and (min-width:768px) {
+    .categories__cards{
     
+    }
 }
 
 @media screen and (min-width:1024px) {
+    .categories__cards{
     
+    }
 }
