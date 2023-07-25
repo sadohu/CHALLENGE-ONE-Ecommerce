@@ -1,0 +1,39 @@
+.header__find{
+    display: flex;
+}
+
+.header__find-input{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .header__find{
+        
+        background-color: var(--color-find-container);
+        width: 17rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 1.25rem;
+        gap: 0.5rem;
+        font-family: var(--fuente_principal);
+    }
+
+    .header__find-input{
+        display: block;
+        width: 13rem;
+        background-color: var(--color-find-input);
+        border: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header__find{
+        width: 22.6rem;
+
+    }
+    
+    .header__find-input{
+        width: 20.6rem;
+    }
+}

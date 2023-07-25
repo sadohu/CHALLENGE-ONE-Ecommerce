@@ -1,0 +1,23 @@
+.header__logo{
+    width: 7rem;
+}
+
+.header__logo-img{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .header__logo{
+        
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header__logo{
+        width: 7rem;
+    }
+    
+    .header__logo-img{
+        width: 8rem;
+    }
+}
