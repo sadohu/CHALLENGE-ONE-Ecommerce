@@ -4,9 +4,18 @@
     justify-content: flex-end;
     align-items: flex-start;
     align-self: stretch;
-    padding-top: 0.5rem;
+    padding: 0.5rem;
     border-radius: 0.25rem;
     background-color: var(--contrast-ligth-color);
+}
+
+.footer__form__input-label{
+    color: var(--contrast-dark-color);
+    font-family: var(--fuente_principal);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
 }
 
 .footer__form__input-input{
