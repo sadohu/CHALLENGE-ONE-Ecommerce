@@ -1,0 +1,45 @@
+.footer__form__input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-self: stretch;
+    padding-top: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--contrast-ligth-color);
+}
+
+.footer__form__input-input{
+    display: flex;
+    align-self: stretch;
+    padding-top: 8px;
+    height: 2.5rem;
+    border: 0;
+
+    color: var(--color_letras-H2);
+    font-family: var(--fuente_principal);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: var(--color_letras-H2);
+}
+
+/* .footer__form__input label{
+    display: block;
+    position: absolute;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: var(--contrast-dark-color);
+    top: 0.1rem;
+} */
+
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:1024px) {
+
+}

@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-footer);
+    gap: 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .footer{
+        flex-direction: row;
+        padding: 2rem;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer{
+        padding: 4rem;
+        gap: 7rem;
+        justify-content: space-around;
+    }
+}

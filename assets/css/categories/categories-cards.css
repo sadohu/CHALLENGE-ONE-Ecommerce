@@ -1,0 +1,17 @@
+.categories__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .categories__cards{
+    
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .categories__cards{
+    
+    }
+}
