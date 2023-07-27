@@ -1,0 +1,26 @@
+.header__login{
+    display: block;
+    position: absolute;
+    left: calc(50% - 1.1rem);
+    top: 1rem;
+}
+
+.header__login-button {
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 0.5rem;
+    background-color: var(--contrast-ligth-color);
+    color: var(--primary-color);
+}
+
+@media screen and (min-width:768px) {
+    .header__login{
+        position: static;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .header__login-button {
+        padding: 1rem;
+    }
+}

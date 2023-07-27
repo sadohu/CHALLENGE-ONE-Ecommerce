@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="assets/css/index-style/header.css">
     <link rel="stylesheet" href="assets/css/index-style/header/header__nav.css">
     <link rel="stylesheet" href="assets/css/index-style/header/header__logo.css">
-    <link rel="stylesheet" href="assets/css/index-style/header/header__login.css">
+    <link rel="stylesheet" href="assets/css/new-item-style/header-menu.css">
+    <link rel="stylesheet" href="assets/css/new-item-style/newform.css">
+    <link rel="stylesheet" href="assets/css/new-item-style/newform-container.css">
+    <link rel="stylesheet" href="assets/css/new-item-style/newform-title.css">
+    <link rel="stylesheet" href="assets/css/new-item-style/newform-input.css">
+    <link rel="stylesheet" href="assets/css/new-item-style/newform-button.css">
     <link rel="stylesheet" href="assets/css/index-style/header/header__find.css">
     <link rel="stylesheet" href="assets/css/login-style/login.css">
     <link rel="stylesheet" href="assets/css/login-style/login-container.css">
@@ -24,7 +29,7 @@
     <link rel="stylesheet" href="assets/css/index-style/footer/footer-form-button.css">
     <link rel="stylesheet" href="assets/css/index-style/sign.css">
     <link rel="stylesheet" href="assets/css/index-style/sign/sign-container.css">
-    <title>Login - AluraGeek</title>
+    <title>Nuevo Producto - AluraGeek</title>
 </head>
 <body>
     <div class="container">
@@ -39,17 +44,42 @@
                     <img class="header__find-img" src="assets/img/header/search.svg" alt="Icono de búsqueda">
                 </div>
             </nav>
+            <div class="header__login">
+                <a href="#"><button type="button" class="header__login-button">Menú Administrador</button></a>
+            </div>
         </header>
         <!-- Main -->
-        <main class="login">
-            <div class="login__container">
-                <h2 class="login__container-title">Iniciar Sesión</h2>
-                <input type="text" class="login__container-input" placeholder="Escriba su correo electrónico">
-                <input type="text" class="login__container-input" placeholder="Escriba su contraseña">
-                <a href="">
-                    <button class="login__container-button">Entrar</button>
-                </a>
+        <main class="newform">
+            <div class="newform__container">
+                <div class="newform__title">
+                    <h2 class="newform__title-title">Agregar nuevo producto</h2>
                 </div>
+                <div class="newform__input">
+                    <label class="newform__input-label" for="url">URL de la imagen</label>
+                    <input id="url" type="text" class="newform__input-input">
+                </div>
+                <div class="newform__input">
+                    <label class="newform__input-label" for="categoria">Categoria</label>
+                    <input id="categoria" type="text" class="newform__input-input">
+                </div>
+                <div class="newform__input">
+                    <label class="newform__input-label" for="name">Nombre del producto</label>
+                    <input id="name" type="text" class="newform__input-input">
+                </div>
+                <div class="newform__input">
+                    <label class="newform__input-label" for="price">Precio del producto</label>
+                    <input id="price" type="text" class="newform__input-input">
+                </div>
+                <div class="newform__input">
+                    <textarea class="newform__input-textarea" name="" id="description" cols="30" rows="3" placeholder="Descripción del producto"></textarea>
+                </div>
+                
+                <div class="newform__button">
+                    <a href="#">
+                        <button id="btnAdd" class="newform__button-button">Agregar Producto</button>
+                    </a>
+                </div>
+            </div>
         </main>
         <!-- Footer -->
         <footer class="footer">
@@ -87,7 +117,7 @@
                     <input id="nombre" class="footer__form__input-input" type="text">
                 </div>
                 <div class="footer__form__input">
-                    <textarea class="footer__form__input-textarea" name="" id="" cols="30" rows="10" placeholder="Escribe un mensaje"></textarea>
+                    <textarea class="footer__form__input-textarea" name="" id="" cols="30" rows="3" placeholder="Escribe un mensaje"></textarea>
                 </div>
                 <div class="footer__form__button">
                     <a href="">

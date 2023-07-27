@@ -1,0 +1,25 @@
+.newform__button{
+}
+
+.newform__button-button{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-family: var(--fuente_principal);
+    background: var(--color_fondo-o-letra_botones-2);
+    color: var(--contrast-ligth-color);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0;
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:1024px) {
+    .newform__button-button{
+        padding: 1rem;
+    }
+}

@@ -24,13 +24,13 @@
         width: 13rem;
         background-color: var(--color-find-input);
         border: none;
+        outline: none !important;
     }
 }
 
 @media screen and (min-width:1024px) {
     .header__find{
         width: 22.6rem;
-
     }
     
     .header__find-input{
