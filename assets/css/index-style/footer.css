@@ -1,15 +1,18 @@
 .footer{
+    background-color: var(--color-footer);
+}
+
+.footer__container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: var(--color-footer);
     gap: 2rem;
 }
 
 @media screen and (min-width:768px) {
-    .footer{
+    .footer__container{
         flex-direction: row;
         padding: 2rem;
         gap: 1rem;
@@ -17,9 +20,11 @@
 }
 
 @media screen and (min-width:1024px) {
-    .footer{
-        padding: 4rem;
+    .footer__container{
+        padding: 4rem 0;
         gap: 7rem;
         justify-content: space-around;
+        width: 71rem;
+        margin: 0 auto;
     }
 }

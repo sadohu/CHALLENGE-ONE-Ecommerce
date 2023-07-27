@@ -1,0 +1,9 @@
+.categories__cards__item__action{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.categories__cards__item__action a{
+    margin-left: 0.85rem;
+}
