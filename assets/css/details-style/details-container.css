@@ -1,0 +1,21 @@
+.details__container{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+    .details__container{
+        flex-direction: row;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .details__container{
+        flex-direction: row;
+        padding: 4rem 0 0;
+        margin: 0 auto;
+        width: 71rem;
+        height: 35rem;
+    }
+}

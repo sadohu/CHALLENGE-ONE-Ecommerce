@@ -1,0 +1,38 @@
+.details__image{
+    display: flex;
+    align-self: stretch;
+    background: url(../../img/productos/product_details/starwar_glass2.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 12rem;
+}
+
+.details__image-img{
+    display: none !important;
+}
+
+@media screen and (min-width:768px) {
+    .details__image{
+        height: 9.8125rem;
+        width: 100%;
+        background-size: cover;
+
+        /* background: none !important; */
+    }
+    .details__image-img{
+        /* display: block !important;
+        height: 9.8125rem;
+        width: 15.875rem; */
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .details__image{
+        height: 9.8125rem;
+        width: 100%;
+        background-size: cover;
+        height: unset;
+        /* background: none !important; */
+    }
+}

@@ -1,0 +1,46 @@
+.details__description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+
+    color: var(--color_letras-H2);
+    font-family: var(--fuente_principal);
+    font-style: normal;
+    line-height: normal;
+}
+
+.details__description-title{
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.details__description-price{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.details__description-description{
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media screen and (min-width:768px) {
+    .details__description{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .details__description{
+        width: 100%;
+        justify-content: center;
+    }
+    .details__description-title{
+        font-size: 3.25rem;
+    }
+    .details__description-description{
+        font-size: 1rem;
+    }
+}
